@@ -1,0 +1,353 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	font-family:"Open Sans", Times, serif;
+}
+#menu{
+	width:960px;
+	margin:0 auto;
+}
+header{
+	position:relative;
+}
+.menu{
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+article{
+	float:right;
+	width:700px;
+}
+aside{
+	float:left;
+	width:260px;
+}
+footer{
+	clear:both;
+}
+.ketthuc{
+	font-weight:bold;
+	font-size:20px;
+}
+.ketthuc a{
+	text-decoration:none;
+	color:black;
+	text-transform:uppercase;
+}
+footer b{
+	text-transform:uppercase;
+	color:black;
+	font-size:18px;
+}
+footer p{
+	font-style:italic;
+	color:#000;
+	font-weight:bold;
+}
+.chuchay1{
+	background-color:white;
+	color:black;
+	text-transform:uppercase;
+	height:40px;
+	line-height:40px;
+	font-size:24px;
+	border-radius:10px;
+}
+.menu1{
+	padding-left:30px;
+	background-color:white;
+	border-radius:10px;
+}
+.menu1 ul li{
+	padding:10px;
+}
+.menu1 ul li a{
+	text-decoration:none;
+	color:black;	
+}
+.menu1 ul li a:hover{
+	color:rgb(255, 0, 0);
+}
+.box{
+	width:225px;
+	float:left;
+	border:1px solid #333;
+	margin:0px 3px;
+}
+.button{
+	background-color:#f3285b;
+	height:30px;
+	line-height:30px;
+	border-radius:5px;
+	color:#FFF;
+	padding:0 5px;
+}
+.box a{
+	text-decoration:none;
+	color:#000;
+}
+.box a:hover{
+	color:#F60;
+}
+.box p{
+	text-align:center;
+	color:#333;
+	font-weight:bold;
+}
+.box h4{
+	color:#F00;
+	text-align:center;
+}
+h3{
+	color:#FFF;
+	font-weight:bold;
+	margin-top:19px;
+}
+.menu2{
+	background-color:white;
+	border-radius:10px;
+}
+.menu2 p{
+	text-align:center;
+	color:black;
+	font-weight:bold;
+}
+nav>ul>li{
+	display:inline-block;
+	position:relative;
+	}
+	
+nav>ul>li>a{
+	display:block;
+	text-decoration:none;
+	padding:0 15px;
+	line-height:50px;
+	color:white;
+	font: weight 14px;;
+	}
+nav>ul>li>a:hover{
+	color:#235199;
+	background-color: white;
+}
+nav>ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	border-radius:10px;
+	background-color:blue;
+	text-align:center;
+	} 		
+nav ul ul{
+	position:absolute;
+	display:none;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	width:250px;
+	}
+nav ul ul a{
+	display:block;
+	line-height:30px;
+	background-color:white;
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+	padding:10px 10px;
+	text-align: left;
+}  	
+nav > ul > li:hover>ul{
+	display:block;
+}	
+nav ul ul a:hover{
+	color:white;
+	background-color: #235199;
+}
+.a img{
+transition-duration: 0.5s;
+}
+.a img:hover{
+transform:scale(1.5);
+}
+.ketthuc {
+	background-color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+----------------------
+.container {
+	max-width: 1200px;
+	margin: auto;
+	display: inline-block;
+}
+.product-items {
+	display: flex;
+	justify-content: space-between;
+	background-color: #ddd;
+	padding: 12px;
+	border-radius: 10px;
+}
+.product-item {
+	width: 19% ;
+	background-color: white;
+	padding: 12px;
+	text-align: center;
+	border-radius: 10px;
+}
+.product-item:hover {
+	width:19% ;
+	background-color:#FFEFE0;
+	padding: 12px;
+	text-align: center;
+	border-radius: 10px;
+}
+.product-item img {
+	width: 100%;
+	margin-bottom: 20px;
+	transition-duration: 0.5s;
+}
+.product-item img:hover {
+	width: 100%;
+	margin-bottom: 20px;
+	transition-duration: 0.5s;
+	transform: scale(1.15,1.15);
+}
+.product-item-text {
+	justify-content: space-between;
+}
+.product-item button {
+	margin-top: 12px;
+	height: 30px;
+	padding: 0 12px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	transition: all 0.3s ease
+}
+.product-item button:hover {
+	background-color:#5DA3C7;
+	color: white;
+}
+.codinh {
+	float: left;
+	width: 220px;
+}
+.spiecals {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	padding: 12px;
+	/* border-radius: 10px; */
+	width: 100%;
+	border-top: 1px solid #235199;
+}
+.spicecals-item {
+	width: 20% ;
+	background-color: white;
+	padding: 12px;
+	text-align: center;
+	border-radius: 10px;
+}
+.spicecals-item img {
+	width: 100%;
+	margin-bottom: 20px;
+	transition-duration: 0.5s;
+}
+/* định dạng số dòng cho tiêu đề */
+.product-item-text a {overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+/* định dạng phần chân trang */
+.thongtin {
+	display: flex;
+	width: 100%;
+	height: auto;
+	background-color: #efefef;
+	/* border-radius: 10px; */
+	border-bottom: 1px solid black;
+}
+.thongtin h3 {
+	color: rgb(23, 26, 167);
+	font-size: bold;
+	padding-bottom: 12px;
+	border-bottom: 1px solid white;
+}
+.thongtin ul {
+	padding: 12px;
+	padding-top: 0%;
+	width: 32%;
+}
+.thongtin ul li {
+	list-style: none;
+	text-align: left;
+	padding-top: 8px;
+	font-size: 14px;
+}
+
+.thongtin ul li a {
+	text-decoration: none;
+	color: #000;
+}
+.thongtin ul li a:hover {
+	text-decoration: none;
+	color: red;
+}
+/* trang trí nút đăng kí đăng nhập đầu trang */
+.menu a {
+	text-decoration: none;
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	color: #000;
+	background-color: #EFEFEF;
+}
+.menu a:hover {
+	text-decoration: none;
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	color: white;
+	background-color: #5DA3C7;
+}
+/* css thanh menu hover */
+.bang ul {
+	border: 1px solid #5DA3C7;
+	border-radius: 5px;
+}
+.bang ul li {
+	border: 1px solid #5DA3C7;
+	border-radius: 5px;
+}
+/* css trang mô tả sản phẩm */
+.danhmucsanpham {
+
+}
+.danhmucsanpham h3 {
+	padding: 12px 0;
+}
+.danhmucsanpham li {
+	list-style: none;
+	padding: 11px 0;
+	border-bottom: 1px solid #EFEFEF;
+}
+.danhmucsanpham a {
+	text-decoration: none;
+	color: #000;
+	font-size: 13px;
+}
+.danhmucsanpham a:hover {
+	color: #F00;
+}
+.motasanpham .sanpham .share .relateproduct .contact {
+	border-top: 1px solid #b31d1d;
+}
