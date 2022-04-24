@@ -71,7 +71,7 @@ footer p{
 }
 .menu1 ul li a{
 	text-decoration:none;
-	color:black;	
+	color:black;
 }
 .menu1 ul li a:hover{
 	color:rgb(255, 0, 0);
@@ -124,7 +124,7 @@ nav>ul>li{
 	display:inline-block;
 	position:relative;
 	}
-	
+
 nav>ul>li>a{
 	display:block;
 	text-decoration:none;
@@ -144,7 +144,7 @@ nav>ul{
 	border-radius:10px;
 	background-color:blue;
 	text-align:center;
-	} 		
+	}
 nav ul ul{
 	position:absolute;
 	display:none;
@@ -162,10 +162,10 @@ nav ul ul a{
 	text-decoration:none;
 	padding:10px 10px;
 	text-align: left;
-}  	
+}
 nav > ul > li:hover>ul{
 	display:block;
-}	
+}
 nav ul ul a:hover{
 	color:white;
 	background-color: #235199;
@@ -209,7 +209,6 @@ transform:scale(1.5);
 	border-radius: 10px;
 }
 .product-item img {
-	width: 100%;
 	margin-bottom: 20px;
 	transition-duration: 0.5s;
 }
@@ -350,4 +349,33 @@ transform:scale(1.5);
 }
 .motasanpham .sanpham .share .relateproduct .contact {
 	border-top: 1px solid #b31d1d;
+}
+
+.icon-bar {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+	background-color: #000;
+}
+
+.cart {
+	background: #3B5998;
+	color: white;
 }
